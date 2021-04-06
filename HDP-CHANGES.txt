@@ -1,0 +1,60 @@
+BUG-122550: RANGER-2637, RANGER-2651: Performance improvements
+BUG-122406 : Unix user doesn't get 'Admin' role when set through assignment rules
+BUG-122275 : Backport Knox Proxy related changes to HDP 3.1.5
+BUG-121921 : Backport Import / Export API improvements to support DLM usecases in HDP-3.1.5
+BUG-121945 : Backport Deny-All-Else Capability to HDP 3.1.5
+BUG-122189 : Backport RANGER-2597 to HDP 3.1.5
+BUG-122206 : Backport RANGER-2531 and RANGER-2552 to HDP 3.1.5
+QE-22903 remove transitive noggit dependency version from assambly plugins
+BUG-122023 : Ranger setup fails with mariadb/mysql when binary logging is enabled
+BUG-122135: Update jackson and jackson-databind version to 2.10.0 (for tagsync)
+BUG-122135: Update jackson and jackson-databind version to 2.10.0
+BUG-122136: Upgrade commons-beanutils to 1.9.4
+BUG-121970 Fix Ranger build for HBase 2.1
+BUG-121315: include missing jar for KMS webapp 
+RANGER-2521: Masking policies not picked from the zone of the accessed resource 
+BUG-121221: RANGER-2513: Unable to delete user if he has references in new ref tables 
+BUG-121108: bump guava version to 28.0-jre 
+BUG-121186: Upgrade jackson.databind to 2.9.9.1 
+RANGER-2511: default tag based service is getting created for the tag based service 
+RANGER-2509: BUG-121150: Add validation message for Importing non JSON file on import action 
+RANGER-2481: Create a tag service when a resource service is created and link it to resource service, Parts 1 and 2. 
+BUG-120903: RANGER-2496:  Upgrade Spring Security version in Ranger 
+Revert "BUG-120499 : RANGER-2466 : Improvement in setting cluster Name in RangerAccessRequest" 
+BUG-120499 : RANGER-2466 : Improvement in setting cluster Name in RangerAccessRequest 
+BUG-120840: RANGER-2479: Change test connection preferred SQL statement for Oracle DB Flavor 
+BUG-120717 : RANGER-2475 : Replacing bootstrap accordion with jquery SlideToggle. 
+RANGER-2474:Policy version and details in access audits wrong when deny condition added to policy 
+RANGER-2473:Upgrade of Ranger Admin to the current version fails in PatchForAtlasResourceAndAccessTypeUpdate_J10016 
+BUG-120555 : RANGER-2468: Upgrade jQuery version in Ranger. 
+RANGER-2458 : Cluster property name changes in Ranger Plugin code 
+RANGER-2465:Create a PolicyCondition to apply if all given tags are present for the accessed resource-addon-sampleTagDef 
+RANGER-2469: Adding absolute-ordering to web.xml to fix More than one fragment error during Ranger start 
+RANGER-2465:Create a PolicyCondition to apply if all given tags are present for the accessed resource 
+RANGER-2464: Upgrade spring, zookeeper, c3p0, jackson-databind, tomcat libraries 
+RANGER-2463:Ranger admin authorization audits fails intermittently to fetch from Solr 
+RANGER-2394 : Add ability to search for multiple users, and exclude multiple users from audit logs 
+BUG-118487: RANGER-2455: When service created inside a zone landing page that service gets created in unzonned landing page. 
+Use TLS in SSLContext.getInstance 
+RANGER-2454 : Remove the trailing slash in Ranger URL in RangerAdminJersey2RESTClient 
+RANGER-2451: fix for ClassCastException in RangerPolicyEngineImpl.convertFromSingleResource()
+RANGER-2453: Tag data-masking policy should allow only one tag as resource 
+CDPD-222: Allow knox trusted proxy for ranger UI 
+RANGER-2456:Upgrade of Ranger Admin to the current version fails in PatchForKafkaServiceDefUpdate_J10025 
+RANGER-2437:Update grant/revoke error message to provide more information about the principal type 
+BUG-120321 : RANGER-2449 : If service part of zone is not present then null pointer exception is thrown 
+RANGER-2420: Ranger spends 36% of CPU in ObjectMapper 
+BUG-119793 : RANGER-2445 : Import of Tagservice for zone 
+BUG-118599: RANGER-2446 : Include security zone details as part of admin audit for policy update 
+BUG-119576: RANGER-2435: The breadcrumb for Security zone name on policy creation/policy edit page should be stagnant. 
+Added 'Nikhil Purbhe' as a committer 
+BUG-120025 RANGER-2421: add missing httpclient libraries to the atlas plugin 
+RANGER-2436 : Custom condition: Access from cluster 
+RANGER-2434: Remove dependency from com.google.common.base.Objects 
+RANGER-2430 : Zoneadmin User is able to create policy for those services which is not associated to zone 
+RANGER-2439: Unable to view policy details from access audits when policy has policy condition at policy level 
+RANGER-2435: Add support for sticky breadcrumbs. 
+RANGER-2438: Legacy PublicAPI REST API to get all policies fails 
+RANGER-2417 : Set Atlas Entity owner to RangerAccessResource ownerUser attribute for Atlas Ranger Plugin 
+BUG-120130: RANGER-2427: Tag policies are not evaluated if no security zones are configured 
+BUG-120055: RANGER-2423: Ranger KnoxSSO authentication in Ranger HA environment 
